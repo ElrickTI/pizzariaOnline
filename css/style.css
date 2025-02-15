@@ -215,6 +215,78 @@ video {
 }
 
 
+/*
+* rodápe
+**/
+
+footer {
+    width: 100vw;
+    background-color: BLACK;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    
+}
+ .navRodape {
+    margin: 0;
+  
+    width: 30%;
+
+
+ }
+.navRodape ul {
+   
+    padding: 0;
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: space-around;
+   
+}
+
+.navRodape ul li {
+    margin: 0;
+   
+}
+
+
+
+
+.navRodape ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+.iconesRodape {
+    width: 30%;
+    height: 12vh;
+    display: flex;
+    
+    justify-content: space-around;
+    gap: 3rem;
+    
+    
+}
+.iconesRodape img {
+    height: 100%;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+
+footer p {
+    color: #fff;
+}
+
+
+
+
+
 @media  (max-width : 450px) {
 
     #icone {
@@ -264,12 +336,39 @@ video {
     .promocoes {
         height: 160vh;
     }
-    .itemCardapio {
-        width: 35%;
-        height: 20%;
+    
+
+
+   /*
+   *
+   * RESPONSIVIDADE CARDAPIO
+   *
+   *
+   */ 
+   .itemCardapio {
+    width: 35%;
+    height: 20%;    
     }
 
     .cardapioPizzaria {
         height: 250vh;
     }
+
+    
+    /**
+    * rodápe
+    */
+    .iconesRodape img {
+        height: 50%;
+        
+    }
+    .iconesRodape {
+        width: 80%;
+
+    }
+    .navRodape {
+
+        width: 80%;
+    }
+
 }
