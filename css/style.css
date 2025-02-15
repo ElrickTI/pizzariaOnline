@@ -185,7 +185,34 @@ video {
     background-color: blanchedalmond;
 }
 
+/*
+* Cardápio Pizzaria
+*/
+.cardapioPizzaria {
+    width: 100vw;
+    height: 200vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 3rem;
+   
+    
+}
 
+.itemCardapio {
+    width: 23%;
+    height: 25%;
+    border: 1px solid black;
+    border-radius: 1rem;
+    
+    padding: 1rem;
+}
+
+.itemCardapio img {
+    width: 100%;
+    height: 50%;
+    background-color: blanchedalmond;
+}
 
 
 @media  (max-width : 450px) {
@@ -236,5 +263,13 @@ video {
     }
     .promocoes {
         height: 160vh;
+    }
+    .itemCardapio {
+        width: 35%;
+        height: 20%;
+    }
+
+    .cardapioPizzaria {
+        height: 250vh;
     }
 }
