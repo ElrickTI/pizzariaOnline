@@ -31,7 +31,7 @@ body,html {
     
 }
 .navCabecalho {
-    width: 30%;
+    width: 70%;
     height: 100%;
     
     
@@ -64,14 +64,13 @@ body,html {
 }
 
 .pedir {
-    text-decoration: none;
-    color: black;
+    
+   
     background-color: yellow;
-    width: fit-content;
     border-radius: 10px;
     height: fit-content;
-    
     padding: 1rem;
+    margin-left: 12rem;
     
 }
 
@@ -118,4 +117,59 @@ video {
     text-decoration: none;
     margin-top: 1rem;
     display: inline-block;
+}
+
+
+#icone{
+    height: 2rem;
+    width: 2rem;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    display: none;
+}
+
+.itemIcone {
+    height: 15%;
+    width: 95%;
+    background-color: #fff5f5;
+}
+@media  (max-width : 450px) {
+
+    #icone {
+        display: flex;
+    }
+    .navCabecalho {
+        top: 20vh;
+        position: absolute;
+        background-color: #fff5f5;
+        height: 40vh;
+        width: 90%;
+        border-radius: 10px;
+        display: none;
+    }
+
+    .listaCabecalho{
+        flex-direction: column;
+        text-align: left;
+    }
+    .itemLista {
+        text-align: left;
+        width: 70%;
+        
+    }
+    .paiLogo {
+        width: 23%;
+        
+    }
+    .pedir {
+        margin: 0;
+        margin-left: -5px;
+    }
+
+    .elementoVideo {
+        top: 25%;
+    }
 }
