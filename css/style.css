@@ -147,7 +147,7 @@ video {
         background-color: #fff5f5;
         height: 40vh;
         width: 90%;
-        border-radius: 10px;
+        border-radius: 2rem;
         display: none;
     }
 
@@ -167,6 +167,8 @@ video {
     .pedir {
         margin: 0;
         margin-left: -5px;
+        
+        
     }
 
     .elementoVideo {
