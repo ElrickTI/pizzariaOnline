@@ -4,37 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Olinda Pizza</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-    <header>
+    <header class="cabecalho">
 
         <section class="paiLogo">
-            <img src="#" alt="logoPizzaria" id="logo">
+            <img src="imagens/logo_pizzaria.png" alt="logoPizzaria" id="logo">
         </section>
-        <nav>
-            <ul>
+        <nav class="navCabecalho">
+            <ul class="listaCabecalho">
                 <li class="itemLista"> <a href="#">Cárdapio</a></li>
                 <li class="itemLista"><a href="#">Carrinho</a>
                 <li class="itemLista"><a href="#">Promoções</a></li>
             </ul>
         </nav>
 
-        <a href="#">Peça Agora </a>
+        <a href="/index.html" class="pedir" >Peça Agora </a>
     </header>
     
-    <article>
+    <section class="containerVideo"> 
+    <video autoplay loop muted playsinline id="video">
+        <source src="imagens/143100-781982612.mp4" type="video/mp4">
+        
+    </video>
+
+    <article class="elementoVideo">
         <h1>Oficial Olinda Pizzas</h1>
         <p>A melhor pizza da cidade de Olinda, entre na sua porta!</p>
-        <a>Explore Agora </a>
+        <a class="explorarVideo" href="#">Explore Agora </a>
     </article>
 
+    </section>
     <main class="conteudoPrincipal">
         <h2>Promoções do dia</h2>
         <section class="promocoes">
              
             <section class="itemPromocao">
-                <img src="#" alt="imgItemPromocao" class="imagemPromocao">
+                <img src="imagens/foto_catupiry.jpg" alt="imgItemPromocao" class="imagemPromocao">
 
                 <h3 class="nomePizza">Pizza Margherita</h3>
                 <span class="valorPizza">R$ 29,90</span>
@@ -42,7 +50,7 @@
             </section>
             
             <section class="itemPromocao">
-                <img src="#" alt="imgItemPromocao" class="imagemPromocao">
+                <img src="imagens/foto_pizza1.jpg" alt="imgItemPromocao" class="imagemPromocao">
 
                 <h3 class="nomePizza">Pizza Margherita</h3>
                 <span class="valorPizza">R$ 29,90</span>
@@ -50,7 +58,7 @@
             </section>
             
             <section class="itemPromocao">
-                <img src="#" alt="imgItemPromocao" class="imagemPromocao">
+                <img src="imagens/foto_pizza_frango.jpg" alt="imgItemPromocao" class="imagemPromocao">
 
                 <h3 class="nomePizza">Pizza Margherita</h3>
                 <span class="valorPizza">R$ 29,90</span>
@@ -58,7 +66,7 @@
             </section>
             
             <section class="itemPromocao">
-                <img src="#" alt="imgItemPromocao" class="imagemPromocao">
+                <img src="imagens/pizza_chocolate.jpg" alt="imgItemPromocao" class="imagemPromocao">
 
                 <h3 class="nomePizza">Pizza Margherita</h3>
                 <span class="valorPizza">R$ 29,90</span>
@@ -66,7 +74,7 @@
             </section>
             
             <section class="itemPromocao">
-                <img src="#" alt="imgItemPromocao" class="imagemPromocao">
+                <img src="imagens/pizza_queijo.jpg" alt="imgItemPromocao" class="imagemPromocao">
 
                 <h3 class="nomePizza">Pizza Margherita</h3>
                 <span class="valorPizza">R$ 29,90</span>
@@ -74,7 +82,7 @@
             </section>
             
             <section class="itemPromocao">
-                <img src="#" alt="imgItemPromocao" class="imagemPromocao">
+                <img src="imagens/presunto.jpg" alt="imgItemPromocao" class="imagemPromocao">
 
                 <h3 class="nomePizza">Pizza Margherita</h3>
                 <span class="valorPizza">R$ 29,90</span>
@@ -88,49 +96,49 @@
         <section class="cardapioPizzaria">
 
             <section class="itemCardapio">
-                <img src="#" alt="imgItemCardapio" class="imagemPromocao">
+                <img src="imagens/foto_catupiry.jpg" alt="imgItemCardapio" class="imagemPromocao">
                 <h3 class="nomePizza">Pizza Margherita</h3>
                 <span class="valorPizza">R$ 29,90</span>
                 <p class="descricaoPizza">Clássica com molho de tomate, queijo e manjericão fresco.</p>
             </section>
 
             <section class="itemCardapio">
-                <img src="#" alt="imgItemCardapio" class="imagemPromocao">
+                <img src="imagens/foto_pizza1.jpg" alt="imgItemCardapio" class="imagemPromocao">
                 <h3 class="nomePizza">Pizza Margherita</h3>
                 <span class="valorPizza">R$ 29,90</span>
                 <p class="descricaoPizza">Clássica com molho de tomate, queijo e manjericão fresco.</p>
             </section>
             
             <section class="itemCardapio">
-                <img src="#" alt="imgItemCardapio" class="imagemPromocao">
+                <img src="imagens/foto_pizza_frango.jpg" alt="imgItemCardapio" class="imagemPromocao">
                 <h3 class="nomePizza">Pizza Margherita</h3>
                 <span class="valorPizza">R$ 29,90</span>
                 <p class="descricaoPizza">Clássica com molho de tomate, queijo e manjericão fresco.</p>
             </section>
             
             <section class="itemCardapio">
-                <img src="#" alt="imgItemCardapio" class="imagemPromocao">
+                <img src="imagens/pizza_chocolate.jpg" alt="imgItemCardapio" class="imagemPromocao">
                 <h3 class="nomePizza">Pizza Margherita</h3>
                 <span class="valorPizza">R$ 29,90</span>
                 <p class="descricaoPizza">Clássica com molho de tomate, queijo e manjericão fresco.</p>
             </section>
             
             <section class="itemCardapio">
-                <img src="#" alt="imgItemCardapio" class="imagemPromocao">
+                <img src="imagens/pizza_queijo.jpg" alt="imgItemCardapio" class="imagemPromocao">
                 <h3 class="nomePizza">Pizza Margherita</h3>
                 <span class="valorPizza">R$ 29,90</span>
                 <p class="descricaoPizza">Clássica com molho de tomate, queijo e manjericão fresco.</p>
             </section>
             
             <section class="itemCardapio">
-                <img src="#" alt="imgItemCardapio" class="imagemPromocao">
+                <img src="imagens/presunto.jpg" alt="imgItemCardapio" class="imagemPromocao">
                 <h3 class="nomePizza">Pizza Margherita</h3>
                 <span class="valorPizza">R$ 29,90</span>
                 <p class="descricaoPizza">Clássica com molho de tomate, queijo e manjericão fresco.</p>
             </section>
             
             <section class="itemCardapio">
-                <img src="#" alt="imgItemCardapio" class="imagemPromocao">
+                <img src="imagens/presunto.jpg" alt="imgItemCardapio" class="imagemPromocao">
                 <h3 class="nomePizza">Pizza Margherita</h3>
                 <span class="valorPizza">R$ 29,90</span>
                 <p class="descricaoPizza">Clássica com molho de tomate, queijo e manjericão fresco.</p>
